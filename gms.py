@@ -19,7 +19,7 @@ class GymMembership:
         self.premium_surcharge = 0.15
 
     def display_membership_plans(self):
-        # Display all available membership plans and their costs
+        # Display all available membership plans and their costs.
         print("Available Membership Plans:")
         for plan, cost in self.membership_plans.items():
             print(f"{plan}: ${cost}")
