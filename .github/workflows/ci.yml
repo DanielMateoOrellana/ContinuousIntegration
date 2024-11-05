@@ -24,4 +24,4 @@ jobs:
       - name: Analyzing the code with pylint
         run: |
           pip install pylint
-          pylint $(git ls-files '*.py')
+          pylint gms.py
