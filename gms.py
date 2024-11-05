@@ -83,7 +83,6 @@ class GymMembership:
         ).strip()
         features = [feature.strip() for feature in features_input.split(',')
                     ] if features_input else []
-
         for feature in features:
             if feature and feature not in self.additional_features:
                 print(f"Invalid feature selected: {feature}")
